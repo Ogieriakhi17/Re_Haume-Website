@@ -6,7 +6,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
+     extend: {
+      fontFamily: {
+        religath: ["Religath", "serif"],
+        josefin: ["var(--font-josefin)", "sans-serif"],
+      },
+      letterSpacing: {
+        widehero: "0.2em", // for that spaced-out RE.HAUME look
+      },
+    },
+},
   plugins: [],
 };

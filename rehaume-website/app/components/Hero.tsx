@@ -35,14 +35,10 @@ export default function Hero() {
         </motion.div>
 
         {/* Tagline */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1 }}
-          className="mt-6 text-xl md:text-2xl text-gray-200 max-w-xl"
-        >
-          Home. ReImagined
-        </motion.p>
+       
+          <h1 className="font-religath tracking-widehero text-5xl">
+        RE.HAUME
+          </h1>
       </div>
     </section>
   );
